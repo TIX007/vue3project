@@ -2,7 +2,7 @@ name: build
 on: 
   push: 
     branches: 
-      - master # 只要push到main分支，就会触发后续流程
+      - master # 只要push到master分支，就会触发后续流程
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
