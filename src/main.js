@@ -29,6 +29,10 @@ const routes = [
     path: "/mine",
     component: () => import("./pages/mine"),
   },
+  {
+    path: "/nest",
+    component: () => import("./pages/nest"),
+  },
 ];
 // 创建路由对象
 const router = createRouter({
