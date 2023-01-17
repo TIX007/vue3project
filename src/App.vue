@@ -6,6 +6,7 @@
       <li><router-link to="/fenlei">分类</router-link></li>
       <li><router-link to="/cart">购物车</router-link></li>
       <li><router-link to="/mine">我的</router-link></li>
+      <li><router-link to="/nest">三方</router-link></li>
     </ul>
   </div>
 </template>
